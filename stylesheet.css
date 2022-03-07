@@ -113,3 +113,54 @@ body {
     padding: 220px 0px;
   }
 
+.company__title{
+    text-align: center;
+}
+
+.company{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.company__title__details__adress p{
+    line-height: 30px;
+}
+
+.company__title__details__adress ul{
+    list-style: none;
+    padding-left: 0%;
+}
+
+
+.company__title__details__adress li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.company__title__details__map {
+    position: relative;
+    width: 50%;
+    height: 0;
+    padding-top: 37.5%; /* 比率を4:3に固定 */
+    margin: 0 0 0 auto;
+  }
+  
+  /* Google Mapのiframe */
+  .company__title__details__map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .company__title__details{
+      display: flex;
+  }
+
+  .end-title {
+      text-align: center;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
