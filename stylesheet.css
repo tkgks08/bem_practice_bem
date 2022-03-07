@@ -87,16 +87,22 @@ body {
 .brand-frame__list__pic img{
     width: 170px;
     height: 106px;
-    padding: 20% 15%;
-    background-color: gainsboro;
 }
 .brand-frame__list__pic{
     text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-color: aqua;
 }
 
 .brand-frame__list P{
     display: block;
-    padding: 0% 17%;
+    margin-right: 10%;
+    margin-left: 10%;
+   
+    
 }
 
 .background img{
