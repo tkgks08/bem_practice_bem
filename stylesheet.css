@@ -1,3 +1,172 @@
 body {
     max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.header__h1 {
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 0%;
+}
+
+.header__h1 img{
+    width: 142px;
+    height: 80px;
+}
+
+.header__list{
+    width: 100%;
+}
+
+.header__list ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 0%;
+}
+
+.header__list li{
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.header__list a{
+    text-decoration: none;
+    color: violet;
+}
+
+.mainImg__img {
+    width: 100%;
+}
+
+.message__title{
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery img{
+    width : 33.33333% ;
+}
+
+.project__title{
+    text-align: center;
+}
+
+.project__img{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project__description{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-img__img{
+    width: 100%;
+}
+
+.brand__title {text-align: center;}
+
+.brand-frame{
+    display: flex;
+}
+
+.brand-frame__list{
+    width : 33.33333% ;
+}
+
+.brand-frame__list__pic img{
+    width: 170px;
+    height: 106px;
+}
+.brand-frame__list__pic{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-color: aqua;
+}
+
+.brand-frame__list P{
+    display: block;
+    margin-right: 10%;
+    margin-left: 10%;
+   
+    
+}
+
+.background img{
+    width: 340px;
+    height: 107px;
+}
+.background {
+    background-image: url('/images/bgSec04.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 220px 0px;
+  }
+
+.company__title{
+    text-align: center;
+}
+
+.company{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.company__title__details__adress p{
+    line-height: 30px;
+}
+
+.company__title__details__adress ul{
+    list-style: none;
+    padding-left: 0%;
+}
+
+
+.company__title__details__adress li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.company__title__details__map {
+    position: relative;
+    width: 50%;
+    height: 0;
+    padding-top: 37.5%; /* 比率を4:3に固定 */
+    margin: 0 0 0 auto;
+  }
+  
+  /* Google Mapのiframe */
+  .company__title__details__map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .company__title__details{
+      display: flex;
+  }
+
+  .end-title {
+      text-align: center;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
